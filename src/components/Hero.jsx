@@ -16,7 +16,14 @@ function Hero() {
           <span style={{ color: "red" }}>
             <Typewriter
               id="typeWriter"
-              words={["being a leader", "helping others", "Slay"]}
+              words={[
+                "being a leader",
+                "helping others",
+                "fostering success",
+                "creating solutions",
+                "communicating new ideas",
+                "working in teams",
+              ]}
               loop={true}
               cursor
               cursorStyle="_"

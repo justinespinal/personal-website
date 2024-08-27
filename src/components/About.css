@@ -1,0 +1,16 @@
+.About {
+  height: 75vh;
+  background-color: white;
+  color: black;
+  display: flex;
+
+  img {
+    width: 50vw;
+  }
+
+  .desc {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+  }
+}
