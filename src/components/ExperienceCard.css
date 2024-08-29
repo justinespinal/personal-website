@@ -1,0 +1,29 @@
+.experienceCard {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: black;
+  border-radius: 15px;
+  width: 50%;
+  img {
+    height: 15vh;
+    border-radius: 10px;
+  }
+  h1{
+    font-size: 1.5vw;
+  }
+  h4{
+    font-size: 1vw;
+  }
+
+  .innerCard{
+    display: flex;
+    gap: 10px;
+  }
+
+  #rightIcon{
+    margin-left: auto;
+    margin-right: 10px;
+  }
+}

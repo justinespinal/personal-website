@@ -13,7 +13,7 @@ function Hero() {
         </div>
         <h1>A Software Engineer dedicated to</h1>
         <h1>
-          <span style={{ color: "red" }}>
+          <span className="typeWriter">
             <Typewriter
               id="typeWriter"
               words={[
