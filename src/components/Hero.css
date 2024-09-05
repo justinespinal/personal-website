@@ -8,27 +8,32 @@
 
   #justinImage {
     height: 75vh;
-    --g: 4px;     /* the gap */
-    --b: 12px;    /* border thickness*/
+    --g: 4px; /* the gap */
+    --b: 12px; /* border thickness*/
     --c: white; /* the color */
-    
-    
+
     padding: calc(var(--g) + var(--b));
     --_c: #0000 0 25%, var(--c) 0 50%;
-    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
-    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    --_g1: repeating-linear-gradient(90deg, var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg, var(--_c)) repeat-y;
     background:
-        var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
-        var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
-    background-size: 200% var(--b),var(--b) 200%;
-    transition: .3s;
+      var(--_g1) var(--_p, 25%) 0,
+      var(--_g2) 0 var(--_p, 125%),
+      var(--_g1) var(--_p, 125%) 100%,
+      var(--_g2) 100% var(--_p, 25%);
+    background-size:
+      200% var(--b),
+      var(--b) 200%;
+    transition: 0.3s;
   }
-  #justinImage:hover{
+  #justinImage:hover {
     --_p: 75%;
   }
 
-  #typeWrite {
-    color: red;
+  .typeWriter {
+    background: -webkit-linear-gradient(rgb(122, 122, 201), rgb(230, 170, 170));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .info {

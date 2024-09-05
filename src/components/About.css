@@ -1,16 +1,27 @@
 .About {
-  height: 75vh;
-  background-color: white;
-  color: black;
+  height: 100vh;
+  background: -webkit-linear-gradient(#10c2ee, #b425e8);
+  color: white;
   display: flex;
+  font-size: 0.75vw;
 
-  img {
-    width: 50vw;
+  #aboutImage {
+    width: 63vw;
+    height: 100vh;
+  }
+
+  #logo {
+    height: 30vh;
+    width: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
   }
 
   .desc {
     width: 50vw;
     display: flex;
     flex-direction: column;
+    padding-right: 5px;
   }
 }

@@ -1,0 +1,13 @@
+.ExperienceContainer {
+  background: -webkit-linear-gradient(#f2f1f1, #67c4ec);
+  height: 100vh;
+  color: black;
+  .Experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+    padding-left: 15px;
+    height: 75vh;
+  }
+}
